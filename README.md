@@ -16,9 +16,8 @@ Recorded Demo of the project.
   - In actions.py the data from api was collected in json format and the dictionary elements were matched with the input variable(taken from user).<br/>
   - If there is a match the respective data is shown, otherwise error correction message is shown.<br/>
  ## *3. Used*
- ![Logo](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
- ![Logo](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
- ![Logo](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+ -![Logo](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
+ - RASA
  ## *4. IDE*
  ![Logo](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
  ## *5. Future Improvements :raised_eyebrow:*
