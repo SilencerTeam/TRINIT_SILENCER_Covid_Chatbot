@@ -1,8 +1,8 @@
 # COVID-19 ASSISTANT
 Chatbot using Covid-19
 ## *1. Output :zipper_mouth_face:*
--Recorded Demo of the project.(https://youtu.be/OpU8z3stYUM)
-
+Recorded Demo of the project = https://youtu.be/OpU8z3stYUM
+The codes and folders are here = https://drive.google.com/drive/folders/1UDBGfWFErzlfhypz0jkqydEL-YjK0VSR
 
 ## *2. Description :thinking:*
   - We created a chatbot using RASA.<br/>
