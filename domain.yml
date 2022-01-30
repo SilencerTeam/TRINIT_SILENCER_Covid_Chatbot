@@ -1,0 +1,62 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - corona_symptoms
+  - corona_state
+  - corona_doctors
+  - corona_preventions
+
+actions: 
+  - action_corona_tracker
+
+entities:
+  - state
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_corona_symptoms:
+  - text: "It may a symptom of corona!"
+
+  utter_corona_doctors:
+  - text: "Contact doctors on phone:
+              1.Dr JS Gularia(9845612780)
+              2.Dr Sainik Khaddar(6258986549)
+              3.Dr Saptarshi Pani(8848446569)
+              4.Dr Sayan Saha(9830651569)"
+  
+  utter_corona_preventions:
+  - text: "1.Wear mask.
+           2.Maintain Social distancing.
+           3.Eat healthy home made food and fruits.
+           4.Drink 7-8 glass of water everyday.
+           5.Undergo vaccination as soon as possible."
+
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

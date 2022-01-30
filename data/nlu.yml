@@ -1,0 +1,162 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: corona_symptoms
+  examples: |
+    - cough and cold
+    - runny nose
+    - fever
+    - severe tiredness
+    - loss of smell and taste
+    - headache
+    - breathing difficulties
+    - chest pain
+
+- intent: corona_state
+  examples: |
+    - [india](state)
+    - [corona](state)
+    - [andaman and nicobar islands](state)
+    - [andhra pradesh](state)
+    - [arunachal pradesh](state)
+    - [assam](state)
+    - [bihar](state)
+    - [chandigarh](state)
+    - [delhi](state)
+    - [goa](state)
+    - [gujarat](state)
+    - [haryana](state)
+    - [himachal pradesh](state)
+    - [jammu and kashmir](state)
+    - [jharkhand](state)
+    - [karnataka](state)
+    - [kerala](state)
+    - [ladakh](state)
+    - [lakshadweep](state)
+    - [madhya pradesh](state)
+    - [maharashtra](state)
+    - [manipur](state)
+    - [meghalaya](state)
+    - [mizoram](state)
+    - [nagaland](state)
+    - [odisha](state)
+    - [puducherry](state)
+    - [punjab](state)
+    - [rajasthan](state)
+    - [sikkim](state)
+    - [tamil nadu](state)
+    - [telengana](state)
+    - [tripura](state)
+    - [uttarakhand](state)
+    - [uttar pradesh](state)
+    - [west bengal](state)
+
+- intent: corona_doctors
+  examples: |
+    - doctors
+    - available
+    - around me
+    - emergency
+    - close to me
+    - viscinity
+    - hospitals
+
+- intent: corona_preventions
+  examples: |
+    - precautions
+    - prevent
+    - heal
+    - medicine
+    - safeguard
+    - protect
+    - immunity 
+
