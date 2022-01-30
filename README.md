@@ -1,9 +1,9 @@
 # COVID-19 ASSISTANT
 Chatbot using Covid-19
 ## *1. Output :zipper_mouth_face:*
-https://youtu.be/OpU8z3stYUM
+-Recorded Demo of the project.(https://youtu.be/OpU8z3stYUM)
 
-Recorded Demo of the project.
+
 ## *2. Description :thinking:*
   - We created a chatbot using RASA.<br/>
   - We first modified the nlu.yml,stories.yml,domain.yml to set the customized intents for the chatbot to identify and answer. <br/>
