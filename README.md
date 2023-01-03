@@ -21,7 +21,7 @@ The codes and folders are here = https://drive.google.com/drive/folders/1UDBGfWF
  ## *4. IDE*
  ![Logo](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
  ## *5. Future Improvements :raised_eyebrow:*
- Looking to improve the output of chatbot with more intent and data.
+ Looking to improve the output of chatbot with more intent and data with a better GUI.
  ## *6. Contributers :nerd_face:*
   - Ayush Roy<br/>
   - Ritwick Halder<br/>
